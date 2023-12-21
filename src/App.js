@@ -56,7 +56,7 @@ function App() {
         <div className="pokemon-container">
           <div className="all-container">
             {getList.map((pokemon, index) => (
-              <PokemonCard key={index} pokemon={pokemon} openModal={openModal} />
+              <PokemonThumbnail key={index} pokemon={pokemon} openModal={openModal} />
             ))}
           </div>
           <button className="load-more" onClick={loadMorePokemon}>
