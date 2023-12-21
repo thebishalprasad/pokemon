@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PokemonCard({ pokemon, openModal }) {
+function PokemonThumbnail({ pokemon, openModal }) {
   return (
     <div className={`thumb-container ${pokemon.type}`} onClick={() => openModal(pokemon)}>
       <div className="number">
@@ -16,4 +16,4 @@ function PokemonCard({ pokemon, openModal }) {
   );
 }
 
-export default PokemonCard;
+export default PokemonThumbnail;

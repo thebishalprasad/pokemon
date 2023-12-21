@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Header from './Header';
-import PokemonCard from './PokemonCard';
+import PokemonThumbnail from './PokemonThumbnail';
 import ExpandedContent from './ExpandedContent';
 import './App.css';
+
 
 function App() {
 
